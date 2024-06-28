@@ -11,7 +11,7 @@ $('.slider').slick({
     prevArrow: ".prev",
     nextArrow: ".next",
     speed: 300,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -33,13 +33,13 @@ $('.slider').slick({
     ]
 });
 
-$('.slider1').slick({
+$('.slider2').slick({
     dots: false,
     infinite: true,
     prevArrow: ".prev1",
     nextArrow: ".next1",
     speed: 300,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -52,4 +52,29 @@ $('.slider1').slick({
             }
         }
     ]
+});
+
+
+const btnsub = document.querySelector(".minus-btn");
+const btnadd = document.querySelector(".adding-btn");
+const number = document.querySelector(".number");
+
+btnsub.addEventListener("click", function () {
+    number.innerHTML = +number.innerHTML - 1;
+});
+
+btnadd.addEventListener("click", function () {
+    number.innerHTML = +number.innerHTML + 1;
+});
+
+
+// accordion
+const accordaon = document.querySelectorAll(".accordion-heading");
+
+accordaon.forEach(acc => {
+    acc.addEventListener("click", function () {
+        const accacitve = document.querySelector(".accordion.acc-active");
+        acc.parentElement.classList.toggle("acc-active");
+        accacitve && accacitve.classList.remove("acc-active");
+    });
 });
