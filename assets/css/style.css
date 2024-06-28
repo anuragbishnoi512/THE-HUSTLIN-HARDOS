@@ -591,6 +591,426 @@
     line-height: 83.2px;
     /* text-align: left; */
 }
+/* accordion */
+.img-1 {
+    box-shadow: -2px -2px 2px 0px #0000004D inset;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px 0px #FFFFFF inset;
+}
+
+.accord-heading {
+    font-family: "Noto Serif", sans-serif;
+    font-size: var(--font-size-24);
+    color: var(--color-black);
+    font-weight: 600;
+    line-height: 32.69px;
+}
+
+.accord-para {
+    font-family: "Noto Serif", sans-serif;
+    font-size: var(--font-size-16);
+    color: var(--color-black);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.accordion-heading {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.accordion1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.accordion {
+    position: relative;
+    overflow: hidden;
+    border-top: 2px solid #000000;
+}
+
+.text-p {
+    position: absolute;
+    top: -600%;
+    left: 0%;
+    transition: all 0.3s ease-in-out;
+}
+
+.app-sign {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.line1 {
+    display: flex;
+}
+
+.line2 {
+    display: none;
+}
+
+.max-w-438 {
+    max-width: 438px;
+}
+
+.acc-active {
+    .text-p {
+        position: unset;
+    }
+
+    .line2 {
+        display: flex;
+    }
+
+    .line1 {
+        display: none;
+    }
+}
+
+.img-1 {
+    box-shadow: -2px -2px 2px 0px #0000004D inset;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px 0px #FFFFFF inset;
+}
+
+.accord-heading {
+    font-family: "Noto Serif", sans-serif;
+    font-size: var(--font-size-24);
+    color: var(--color-black);
+    font-weight: 600;
+    line-height: 32.69px;
+}
+
+.accord-para {
+    font-family: "Noto Serif", sans-serif;
+    font-size: var(--font-size-16);
+    color: var(--color-black);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.accordion-heading {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.accordion1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.accordion {
+    position: relative;
+    overflow: hidden;
+    border-top: 2px solid #000000;
+}
+
+.text-p {
+    position: absolute;
+    top: -600%;
+    left: 0%;
+    transition: all 0.3s ease-in-out;
+}
+
+.apps {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.line1 {
+    display: flex;
+}
+
+.line2 {
+    display: none;
+}
+
+.max-w-438 {
+    max-width: 438px;
+}
+
+.acc-active {
+    .text-p {
+        position: unset;
+    }
+
+    .line2 {
+        display: flex;
+    }
+
+    .line1 {
+        display: none;
+    }
+}
+
+.img-1 {
+    box-shadow: -2px -2px 2px 0px #0000004D inset;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px 0px #FFFFFF inset;
+}
+
+.accord-heading {
+    font-family: "Noto Serif", sans-serif;
+    font-size: var(--font-size-24);
+    color: var(--color-black);
+    font-weight: 600;
+    line-height: 32.69px;
+}
+
+.accord-para {
+    font-family: "Noto Serif", sans-serif;
+    font-size: var(--font-size-16);
+    color: var(--color-black);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.accordion-heading {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.accordion1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.accordion {
+    position: relative;
+    overflow: hidden;
+    border-top: 2px solid #000000;
+}
+
+.text-p {
+    position: absolute;
+    top: -600%;
+    left: 0%;
+    transition: all 0.3s ease-in-out;
+}
+
+.apps {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.line1 {
+    display: flex;
+}
+
+.line2 {
+    display: none;
+}
+
+.max-w-438 {
+    max-width: 438px;
+}
+
+.acc-active {
+    .text-p {
+        position: unset;
+    }
+
+    .line2 {
+        display: flex;
+    }
+
+    .line1 {
+        display: none;
+    }
+}
+
+.img-1 {
+    box-shadow: -2px -2px 2px 0px #0000004D inset;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px 0px #FFFFFF inset;
+}
+
+.accord-heading {
+    font-family: "Noto Serif", sans-serif;
+    font-size: var(--font-size-24);
+    color: var(--color-black);
+    font-weight: 600;
+    line-height: 32.69px;
+}
+
+.accord-para {
+    font-family: "Noto Serif", sans-serif;
+    font-size: var(--font-size-16);
+    color: var(--color-black);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.accordion-heading {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.accordion1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.accordion {
+    position: relative;
+    overflow: hidden;
+    border-top: 2px solid #000000;
+}
+
+.text-p {
+    position: absolute;
+    top: -600%;
+    left: 0%;
+    transition: all 0.3s ease-in-out;
+}
+
+.apps {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.line1 {
+    display: flex;
+}
+
+.line2 {
+    display: none;
+}
+
+.max-w-438 {
+    max-width: 438px;
+}
+
+.acc-active {
+    .text-p {
+        position: unset;
+    }
+
+    .line2 {
+        display: flex;
+    }
+
+    .line1 {
+        display: none;
+    }
+}
+
+.img-1 {
+    box-shadow: -2px -2px 2px 0px #0000004D inset;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px 0px #FFFFFF inset;
+}
+
+.accord-heading {
+    font-family: "Noto Serif", sans-serif;
+    font-size: var(--font-size-24);
+    color: var(--color-black);
+    font-weight: 600;
+    line-height: 32.69px;
+}
+
+.accord-para {
+    font-family: "Noto Serif", sans-serif;
+    font-size: var(--font-size-16);
+    color: var(--color-black);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.accordion-heading {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.accordion1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.accordion {
+    position: relative;
+    overflow: hidden;
+    border-top: 2px solid #000000;
+}
+
+.text-p {
+    position: absolute;
+    top: -600%;
+    left: 0%;
+    transition: all 0.3s ease-in-out;
+}
+
+.apps {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.line1 {
+    display: flex;
+}
+
+.line2 {
+    display: none;
+}
+
+.max-w-438 {
+    max-width: 438px;
+}
+
+.acc-active {
+    .text-p {
+        position: unset;
+    }
+
+    .line2 {
+        display: flex;
+    }
+
+    .line1 {
+        display: none;
+    }
+}
 
 @media (min-width:576px) {
     .timeline::after {
