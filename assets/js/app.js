@@ -53,3 +53,16 @@ $('.slider1').slick({
         }
     ]
 });
+
+
+const btnsub = document.querySelector(".minus-btn");
+const btnadd = document.querySelector(".adding-btn");
+const number = document.querySelector(".number");
+
+btnsub.addEventListener("click", function () {
+    number.innerHTML = +number.innerHTML - 1;
+});
+
+btnadd.addEventListener("click", function () {
+    number.innerHTML = +number.innerHTML + 1;
+});
