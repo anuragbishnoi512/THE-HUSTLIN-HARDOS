@@ -33,7 +33,7 @@ $('.slider').slick({
     ]
 });
 
-$('.slider1').slick({
+$('.slider2').slick({
     dots: false,
     infinite: true,
     prevArrow: ".prev1",

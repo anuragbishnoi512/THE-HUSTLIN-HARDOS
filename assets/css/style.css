@@ -550,6 +550,32 @@
     /* text-align: left; */
 }
 
+.slider-2-h2 {
+    font-family: "Noto Serif", sans-serif;
+    font-size: var(--font-size-36);
+    font-weight: 900;
+    line-height: 49.03px;
+    /* text-align: left; */
+    color: var(--color-lightgray);
+}
+
+.slider-2-para {
+    font-family: "Noto Serif", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 21.79px;
+    /* text-align: center; */
+}
+
+.slider-2-johny {
+    font-family: "Noto Serif", sans-serif;
+    font-size: var(--font-size-36);
+    font-weight: 900;
+    line-height: 49.03px;
+    /* text-align: left; */
+    color: var(--color-lightgray);
+}
+
 @media (min-width:576px) {
     .timeline::after {
         content: '';
