@@ -39,7 +39,7 @@ $('.slider2').slick({
     prevArrow: ".prev1",
     nextArrow: ".next1",
     speed: 300,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     slidesToShow: 2,
     slidesToScroll: 1,
